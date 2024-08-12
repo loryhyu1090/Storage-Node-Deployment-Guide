@@ -1,3 +1,6 @@
+
+![0G-Labs](https://github.com/user-attachments/assets/d5f7c194-4f53-4878-898e-982659600298)
+
 # Storage-Node-Deployment-Guide
 This guide provides detailed steps for deploying the 0G System's Storage Node, which consists of multiple components with specific functionalities.
 
@@ -26,12 +29,7 @@ The 0G Storage Node interacts with on-chain contracts for blob root confirmation
     sudo apt-get update
     sudo apt-get install clang cmake build-essential
     ```
-
-- **For Mac:**
-    ```bash
-    brew install llvm cmake
-    ```
-
+    
 #### **2. Install Rust**
    ```bash
    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -50,12 +48,6 @@ The 0G Storage Node interacts with on-chain contracts for blob root confirmation
     # Add Go to your PATH
     export PATH=$PATH:/usr/local/go/bin
     ```
-
-- **For Mac:**
-    ```bash
-    brew install go
-    ```
-   Alternatively, download the Go installer from the official [Go download page](https://go.dev/dl/). Open the package file and follow the prompts to install.
 
 #### **4. Download the Source Code**
    ```bash
