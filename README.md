@@ -10,10 +10,12 @@ This guide provides detailed steps for deploying the 0G System's Storage Node, w
 The 0G Storage Node interacts with on-chain contracts for blob root confirmation and PoRA mining. For official deployed contract addresses, please visit the relevant official documentation page.
 
 ### **Hardware Requirements**
-- **Memory:** 16 GB RAM
-- **CPU:** 4 cores
-- **Disk:** 500GB to 1TB NVMe SSD
-- **Bandwidth:** 500 MBps for both Download and Upload
+|Key|Value|
+|:--|:----|
+|**Memory:**|16 GB RAM|
+|**CPU**|4 cores|
+|**Disk:**|500GB to 1TB NVMe SSD|
+|**Bandwidth:**|500 MBps for both Download and Upload|
 
 ### **Deployment Steps**
 
